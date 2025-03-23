@@ -22,17 +22,17 @@ public class Car {
         Car car1 = new Car("Toyota Camry", 2020);
         Car car2 = new Car("Honda Accord", 2018);
 
-        // Вызываем метод drive
+
         car1.drive();
         car2.drive();
 
-        // Изменяем переменные
+
         car1.model = "Ford Mustang";
         car1.year = 2022;
         car2.model = "BMW X5";
         car2.year = 2021;
 
-        // Повторно вызываем метод drive
+
         car1.drive();
         car2.drive();
     }
