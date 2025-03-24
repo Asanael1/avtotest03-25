@@ -16,7 +16,7 @@ public class BankDeposit {
         }
 
 
-        System.out.printf("Конечная сумма вклада: %.2f\n", deposit);
+        System.out.println("Конечная сумма вклада: " + deposit);
 
         scanner.close();
     }
